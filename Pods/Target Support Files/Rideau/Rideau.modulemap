@@ -1,0 +1,6 @@
+framework module Rideau {
+  umbrella header "Rideau-umbrella.h"
+
+  export *
+  module * { export * }
+}
