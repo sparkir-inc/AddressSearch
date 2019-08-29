@@ -3,7 +3,7 @@
 ### The Goal
 We build AddressSearch to serve as a convenient reusable method for allowing users to autocomplete their address entry. We wanted to be something that was lightweight and efficient
 
-![demo](./img/Demo.png | width=200)
+![demo](./img/Demo.png)
 
 ## Installation
 
