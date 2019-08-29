@@ -1,9 +1,9 @@
 # AddressSearch
 
 ### The Goal
-We build AddressSearch to serve as a convenient reuseable method for allowing users to autocomplete their address entry. We wanted to be something that was lightweight and efficient
+We build AddressSearch to serve as a convenient reusable method for allowing users to autocomplete their address entry. We wanted to be something that was lightweight and efficient
 
-![demo](./img/Demo.png)
+![demo](./img/Demo.png | width=200)
 
 ## Installation
 
@@ -39,12 +39,12 @@ class ViewController: UIViewController, ASDelegate {
 
   override func viewDidAppear() {
     super.viewDidLoad()
-    
+
     let addressSearchController = ASViewController.launch()
     addressSearchController.delegate = self
     self.present(addressSearchController, animated: true, completion: nil)
   }
-  
+
   func addressSelected(data: Dictionary<NSTextCheckingKey, String>) {
     // handle AddressSearch data output here
   }
@@ -54,6 +54,6 @@ class ViewController: UIViewController, ASDelegate {
 ## AddressSearch Delegate
 ```swift
 func addressSelected(data: Dictionary<NSTextCheckingKey, String>) {
-  
+
 }
 ```
