@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322555C023158ECF00F455F3 /* AddressSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322555BF23158ECF00F455F3 /* AddressSearchViewController.swift */; };
+		322555C023158ECF00F455F3 /* ASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322555BF23158ECF00F455F3 /* ASViewController.swift */; };
 		322555C223158EE100F455F3 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322555C123158EE100F455F3 /* Map.storyboard */; };
 		322555C42315902200F455F3 /* AddressSearchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322555C32315902200F455F3 /* AddressSearchDelegate.swift */; };
+		322555C62315929500F455F3 /* AddressSearch.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 322555C52315929400F455F3 /* AddressSearch.podspec */; };
 		32AC7A962314608900C90600 /* AddressSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC7A8C2314608900C90600 /* AddressSearch.framework */; };
 		32AC7A9B2314608900C90600 /* AddressSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC7A9A2314608900C90600 /* AddressSearchTests.swift */; };
 		32AC7A9D2314608900C90600 /* AddressSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AC7A8F2314608900C90600 /* AddressSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		322555BF23158ECF00F455F3 /* AddressSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchViewController.swift; sourceTree = "<group>"; };
+		322555BF23158ECF00F455F3 /* ASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASViewController.swift; sourceTree = "<group>"; };
 		322555C123158EE100F455F3 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		322555C32315902200F455F3 /* AddressSearchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchDelegate.swift; sourceTree = "<group>"; };
+		322555C52315929400F455F3 /* AddressSearch.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AddressSearch.podspec; sourceTree = SOURCE_ROOT; };
 		32AC7A8C2314608900C90600 /* AddressSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AC7A8F2314608900C90600 /* AddressSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressSearch.h; sourceTree = "<group>"; };
 		32AC7A902314608900C90600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,10 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				32AC7A8F2314608900C90600 /* AddressSearch.h */,
-				32AC7A902314608900C90600 /* Info.plist */,
-				322555BF23158ECF00F455F3 /* AddressSearchViewController.swift */,
+				322555BF23158ECF00F455F3 /* ASViewController.swift */,
 				322555C123158EE100F455F3 /* Map.storyboard */,
 				322555C32315902200F455F3 /* AddressSearchDelegate.swift */,
+				32AC7A902314608900C90600 /* Info.plist */,
+				322555C52315929400F455F3 /* AddressSearch.podspec */,
 			);
 			path = AddressSearch;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322555C223158EE100F455F3 /* Map.storyboard in Resources */,
+				322555C62315929500F455F3 /* AddressSearch.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322555C023158ECF00F455F3 /* AddressSearchViewController.swift in Sources */,
+				322555C023158ECF00F455F3 /* ASViewController.swift in Sources */,
 				322555C42315902200F455F3 /* AddressSearchDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

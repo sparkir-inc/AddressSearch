@@ -6,8 +6,8 @@
 //  Copyright © 2019 Sparkir, Inc. All rights reserved.
 //
 
-import Foundation
+import MapKit
 
-protocol AddressSearchDelegate {
-//	func selected
+public protocol ASDelegate {
+	func addressSelected(data: Dictionary<NSTextCheckingKey, String>)
 }
