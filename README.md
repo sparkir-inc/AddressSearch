@@ -38,8 +38,7 @@ import AddressSearch
 class ViewController: UIViewController, ASDelegate {
 
   override func viewDidAppear() {
-    super.viewDidLoad()
-
+    // For example only, we don't recommend this method for launching AddressSearch
     let addressSearchController = ASViewController.launch()
     addressSearchController.delegate = self
     self.present(addressSearchController, animated: true, completion: nil)
@@ -53,7 +52,5 @@ class ViewController: UIViewController, ASDelegate {
 
 ## AddressSearch Delegate
 ```swift
-func addressSelected(data: Dictionary<NSTextCheckingKey, String>) {
-
-}
+func addressSelected(data: Dictionary<NSTextCheckingKey, String>) {}
 ```
